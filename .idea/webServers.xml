@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1114390c-fc55-4820-9586-ca0aa24915c8" name="prod-server" url="http://90.156.171.73">
+        <fileTransfer rootFolder="/www/project-spellcraft.ru" host="90.156.171.73" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

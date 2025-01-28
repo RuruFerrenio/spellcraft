@@ -1,0 +1,1313 @@
+2024-10-14 13:07:59 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: location-operator/ in C:\OSPanel\domains\spellcraft.ru\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\OSPanel\domains\spellcraft.ru\vendor\yiisoft\yii2\console\Controller.php(180): yii\base\Controller->runAction()
+#1 C:\OSPanel\domains\spellcraft.ru\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction()
+#2 C:\OSPanel\domains\spellcraft.ru\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#3 C:\OSPanel\domains\spellcraft.ru\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#4 C:\OSPanel\domains\spellcraft.ru\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest()
+#5 C:\OSPanel\domains\spellcraft.ru\yii(20): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "location-operator". in C:\OSPanel\domains\spellcraft.ru\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 C:\OSPanel\domains\spellcraft.ru\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#1 C:\OSPanel\domains\spellcraft.ru\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest()
+#2 C:\OSPanel\domains\spellcraft.ru\yii(20): yii\base\Application->run()
+#3 {main}
+2024-10-14 13:07:59 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '111x32766 (111x28)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\Король Сервера\\AppData\\Roaming'
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-J3F40PM'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuArgs2' => ''
+    'ConEmuBackHWND' => '0x000107B6'
+    'ConEmuBaseDir' => 'C:\\ospanel\\modules\\conemu\\ConEmu'
+    'ConEmuBaseDirShort' => 'C:\\OSPanel\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '220807'
+    'ConEmuCfgDir' => 'C:\\ospanel\\modules\\conemu'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'C:\\ospanel\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x000107B8'
+    'ConEmuDrive' => 'C:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x00100796'
+    'ConEmuPalette' => '<ConEmu>'
+    'ConEmuPID' => '15576'
+    'ConEmuServerPID' => '10048'
+    'ConEmuTask' => '{Shells::cmd}'
+    'ConEmuWorkDir' => 'c:\\ospanel'
+    'ConEmuWorkDrive' => 'c:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'c:\\ospanel'
+    'HOMEDRIVE' => 'c:'
+    'HOMEPATH' => '\\ospanel'
+    'INTEL_DEV_REDIST' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\'
+    'LOCALAPPDATA' => 'C:\\Users\\Король Сервера\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-J3F40PM'
+    'MIC_LD_LIBRARY_PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\compiler\\lib\\mic'
+    'NUMBER_OF_PROCESSORS' => '6'
+    'OneDrive' => 'C:\\Users\\Король Сервера\\OneDrive'
+    'OPENSSL_CONF' => 'c:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ospanel\\modules\\conemu;C:\\ospanel\\modules\\conemu\\ConEmu;c:\\ospanel\\modules\\php\\PHP_8.1\\ext;c:\\ospanel\\modules\\php\\PHP_8.1\\pear;c:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;c:\\ospanel\\modules\\php\\PHP_8.1;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.7-Win10\\bin;c:\\ospanel\\modules\\database\\PostgreSQL-14-Win10\\bin;c:\\ospanel\\modules\\database\\PostgreSQL-14-Win10\\lib;c:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'c:\\ospanel\\modules\\php\\PHP_8.1\\php.exe'
+    'PHPDIR' => 'c:\\ospanel\\modules\\php\\PHP_8.1\\'
+    'PHPRC' => 'c:\\ospanel\\modules\\php\\PHP_8.1'
+    'PHP_BIN' => 'c:\\ospanel\\modules\\php\\PHP_8.1\\php.exe'
+    'PHP_BINARY' => 'c:\\ospanel\\modules\\php\\PHP_8.1\\php.exe'
+    'PHP_BINDIR' => 'c:\\ospanel\\modules\\php\\PHP_8.1\\'
+    'PHP_DIR' => 'c:\\ospanel\\modules\\php\\PHP_8.1\\'
+    'PHP_INI' => 'c:\\ospanel\\modules\\php\\PHP_8.1\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'c:\\ospanel\\modules\\php\\PHP_8.1\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'c:\\ospanel\\modules\\php\\PHP_8.1\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'c:\\ospanel\\modules\\php\\PHP_8.1\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'c:\\ospanel\\modules\\php\\PHP_8.1\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'c:\\ospanel\\modules\\php\\PHP_8.1\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'c:\\ospanel\\modules\\php\\PHP_8.1\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'c:\\ospanel\\modules\\php\\PHP_8.1\\PEAR\\tests'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e0a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[m$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S$E]9;12$E\\'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'c:\\ospanel\\userdata\\temp'
+    'TMP' => 'c:\\ospanel\\userdata\\temp'
+    'USERDOMAIN' => 'DESKTOP-J3F40PM'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-J3F40PM'
+    'USERNAME' => 'Король Сервера'
+    'USERPROFILE' => 'C:\\Users\\Король Сервера'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1728900479.6178
+    'REQUEST_TIME' => 1728900479
+    'argv' => [
+        0 => 'yii'
+        1 => 'location-operator'
+    ]
+    'argc' => 2
+]
+2024-10-15 00:08:04 [-][-][-][error][Error] Error: Attempt to assign property "location_id" on null in C:\OSPanel\domains\spellcraft.ru\components\LocationOperator.php:84
+Stack trace:
+#0 C:\OSPanel\domains\spellcraft.ru\components\LocationOperator.php(52): app\components\LocationOperator->joinLocation()
+#1 C:\OSPanel\domains\spellcraft.ru\vendor\cboden\ratchet\src\Ratchet\WebSocket\WsServer.php(75): app\components\LocationOperator->onMessage()
+#2 C:\OSPanel\domains\spellcraft.ru\vendor\cboden\ratchet\src\Ratchet\WebSocket\WsServer.php(131): Ratchet\WebSocket\WsServer->Ratchet\WebSocket\{closure}()
+#3 C:\OSPanel\domains\spellcraft.ru\vendor\ratchet\rfc6455\src\Messaging\MessageBuffer.php(248): Ratchet\WebSocket\WsServer->Ratchet\WebSocket\{closure}()
+#4 C:\OSPanel\domains\spellcraft.ru\vendor\ratchet\rfc6455\src\Messaging\MessageBuffer.php(194): Ratchet\RFC6455\Messaging\MessageBuffer->processData()
+#5 C:\OSPanel\domains\spellcraft.ru\vendor\cboden\ratchet\src\Ratchet\WebSocket\WsServer.php(153): Ratchet\RFC6455\Messaging\MessageBuffer->onData()
+#6 C:\OSPanel\domains\spellcraft.ru\vendor\cboden\ratchet\src\Ratchet\Http\Router.php(76): Ratchet\WebSocket\WsServer->onMessage()
+#7 C:\OSPanel\domains\spellcraft.ru\vendor\cboden\ratchet\src\Ratchet\Http\HttpServer.php(54): Ratchet\Http\Router->onMessage()
+#8 C:\OSPanel\domains\spellcraft.ru\vendor\cboden\ratchet\src\Ratchet\Server\IoServer.php(112): Ratchet\Http\HttpServer->onMessage()
+#9 C:\OSPanel\domains\spellcraft.ru\vendor\cboden\ratchet\src\Ratchet\Server\IoServer.php(95): Ratchet\Server\IoServer->handleData()
+#10 C:\OSPanel\domains\spellcraft.ru\vendor\evenement\evenement\src\EventEmitterTrait.php(143): Ratchet\Server\IoServer->Ratchet\Server\{closure}()
+#11 C:\OSPanel\domains\spellcraft.ru\vendor\react\stream\src\Util.php(71): Evenement\EventEmitter->emit()
+#12 C:\OSPanel\domains\spellcraft.ru\vendor\evenement\evenement\src\EventEmitterTrait.php(143): React\Stream\Util::React\Stream\{closure}()
+#13 C:\OSPanel\domains\spellcraft.ru\vendor\react\stream\src\DuplexResourceStream.php(209): Evenement\EventEmitter->emit()
+#14 C:\OSPanel\domains\spellcraft.ru\vendor\react\event-loop\src\StreamSelectLoop.php(246): React\Stream\DuplexResourceStream->handleData()
+#15 C:\OSPanel\domains\spellcraft.ru\vendor\react\event-loop\src\StreamSelectLoop.php(213): React\EventLoop\StreamSelectLoop->waitForStreamActivity()
+#16 C:\OSPanel\domains\spellcraft.ru\vendor\cboden\ratchet\src\Ratchet\Server\IoServer.php(74): React\EventLoop\StreamSelectLoop->run()
+#17 C:\OSPanel\domains\spellcraft.ru\vendor\cboden\ratchet\src\Ratchet\App.php(145): Ratchet\Server\IoServer->run()
+#18 C:\OSPanel\domains\spellcraft.ru\commands\LocationOperatorController.php(19): Ratchet\App->run()
+#19 [internal function]: app\commands\LocationOperatorController->actionStart()
+#20 C:\OSPanel\domains\spellcraft.ru\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#21 C:\OSPanel\domains\spellcraft.ru\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#22 C:\OSPanel\domains\spellcraft.ru\vendor\yiisoft\yii2\console\Controller.php(180): yii\base\Controller->runAction()
+#23 C:\OSPanel\domains\spellcraft.ru\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction()
+#24 C:\OSPanel\domains\spellcraft.ru\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#25 C:\OSPanel\domains\spellcraft.ru\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#26 C:\OSPanel\domains\spellcraft.ru\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest()
+#27 C:\OSPanel\domains\spellcraft.ru\yii(20): yii\base\Application->run()
+#28 {main}
+2024-10-14 23:59:01 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '111x32766 (111x28)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\Король Сервера\\AppData\\Roaming'
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-J3F40PM'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuArgs2' => ''
+    'ConEmuBackHWND' => '0x000107B6'
+    'ConEmuBaseDir' => 'C:\\ospanel\\modules\\conemu\\ConEmu'
+    'ConEmuBaseDirShort' => 'C:\\OSPanel\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '220807'
+    'ConEmuCfgDir' => 'C:\\ospanel\\modules\\conemu'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'C:\\ospanel\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x000107B8'
+    'ConEmuDrive' => 'C:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x00100796'
+    'ConEmuPalette' => '<ConEmu>'
+    'ConEmuPID' => '15576'
+    'ConEmuServerPID' => '10048'
+    'ConEmuTask' => '{Shells::cmd}'
+    'ConEmuWorkDir' => 'c:\\ospanel'
+    'ConEmuWorkDrive' => 'c:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'c:\\ospanel'
+    'HOMEDRIVE' => 'c:'
+    'HOMEPATH' => '\\ospanel'
+    'INTEL_DEV_REDIST' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\'
+    'LOCALAPPDATA' => 'C:\\Users\\Король Сервера\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-J3F40PM'
+    'MIC_LD_LIBRARY_PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\compiler\\lib\\mic'
+    'NUMBER_OF_PROCESSORS' => '6'
+    'OneDrive' => 'C:\\Users\\Король Сервера\\OneDrive'
+    'OPENSSL_CONF' => 'c:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ospanel\\modules\\conemu;C:\\ospanel\\modules\\conemu\\ConEmu;c:\\ospanel\\modules\\php\\PHP_8.1\\ext;c:\\ospanel\\modules\\php\\PHP_8.1\\pear;c:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;c:\\ospanel\\modules\\php\\PHP_8.1;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.7-Win10\\bin;c:\\ospanel\\modules\\database\\PostgreSQL-14-Win10\\bin;c:\\ospanel\\modules\\database\\PostgreSQL-14-Win10\\lib;c:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'c:\\ospanel\\modules\\php\\PHP_8.1\\php.exe'
+    'PHPDIR' => 'c:\\ospanel\\modules\\php\\PHP_8.1\\'
+    'PHPRC' => 'c:\\ospanel\\modules\\php\\PHP_8.1'
+    'PHP_BIN' => 'c:\\ospanel\\modules\\php\\PHP_8.1\\php.exe'
+    'PHP_BINARY' => 'c:\\ospanel\\modules\\php\\PHP_8.1\\php.exe'
+    'PHP_BINDIR' => 'c:\\ospanel\\modules\\php\\PHP_8.1\\'
+    'PHP_DIR' => 'c:\\ospanel\\modules\\php\\PHP_8.1\\'
+    'PHP_INI' => 'c:\\ospanel\\modules\\php\\PHP_8.1\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'c:\\ospanel\\modules\\php\\PHP_8.1\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'c:\\ospanel\\modules\\php\\PHP_8.1\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'c:\\ospanel\\modules\\php\\PHP_8.1\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'c:\\ospanel\\modules\\php\\PHP_8.1\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'c:\\ospanel\\modules\\php\\PHP_8.1\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'c:\\ospanel\\modules\\php\\PHP_8.1\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'c:\\ospanel\\modules\\php\\PHP_8.1\\PEAR\\tests'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e0a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[m$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S$E]9;12$E\\'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'c:\\ospanel\\userdata\\temp'
+    'TMP' => 'c:\\ospanel\\userdata\\temp'
+    'USERDOMAIN' => 'DESKTOP-J3F40PM'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-J3F40PM'
+    'USERNAME' => 'Король Сервера'
+    'USERPROFILE' => 'C:\\Users\\Король Сервера'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1728939541.8201
+    'REQUEST_TIME' => 1728939541
+    'argv' => [
+        0 => 'yii'
+        1 => 'location-operator/start'
+    ]
+    'argc' => 2
+]
+2024-10-20 13:38:00 [-][-][-][error][RuntimeException] RuntimeException: Failed to listen on "tcp://0.0.0.0:8093": Address already in use (EADDRINUSE) in /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/TcpServer.php:188
+Stack trace:
+#0 /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/Server.php(81): React\Socket\TcpServer->__construct()
+#1 /var/www/www-root/data/www/project-spellcraft.ru/vendor/cboden/ratchet/src/Ratchet/App.php(78): React\Socket\Server->__construct()
+#2 /var/www/www-root/data/www/project-spellcraft.ru/commands/LocationOperatorController.php(17): Ratchet\App->__construct()
+#3 [internal function]: app\commands\LocationOperatorController->actionStart()
+#4 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#5 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#6 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction()
+#7 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction()
+#8 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#9 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#10 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#11 /var/www/www-root/data/www/project-spellcraft.ru/yii(20): yii\base\Application->run()
+#12 {main}
+2024-10-20 13:38:00 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'PWD' => '/var/www/www-root/data/www/project-spellcraft.ru'
+    'LOGNAME' => 'root'
+    'HOME' => '/root'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'TERM' => 'xterm'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'USER' => 'root'
+    'SHLVL' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'MAIL' => '/var/mail/root'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/root'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1729431480.7173
+    'REQUEST_TIME' => 1729431480
+    'argv' => [
+        0 => 'yii'
+        1 => 'location-operator/start'
+    ]
+    'argc' => 2
+]
+2024-10-20 13:38:04 [-][-][-][error][RuntimeException] RuntimeException: Failed to listen on "tcp://0.0.0.0:8093": Address already in use (EADDRINUSE) in /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/TcpServer.php:188
+Stack trace:
+#0 /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/Server.php(81): React\Socket\TcpServer->__construct()
+#1 /var/www/www-root/data/www/project-spellcraft.ru/vendor/cboden/ratchet/src/Ratchet/App.php(78): React\Socket\Server->__construct()
+#2 /var/www/www-root/data/www/project-spellcraft.ru/commands/LocationOperatorController.php(17): Ratchet\App->__construct()
+#3 [internal function]: app\commands\LocationOperatorController->actionStart()
+#4 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#5 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#6 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction()
+#7 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction()
+#8 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#9 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#10 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#11 /var/www/www-root/data/www/project-spellcraft.ru/yii(20): yii\base\Application->run()
+#12 {main}
+2024-10-20 13:38:04 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'PWD' => '/var/www/www-root/data/www/project-spellcraft.ru'
+    'LOGNAME' => 'root'
+    'HOME' => '/root'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'TERM' => 'xterm'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'USER' => 'root'
+    'SHLVL' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'MAIL' => '/var/mail/root'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/root'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1729431484.843
+    'REQUEST_TIME' => 1729431484
+    'argv' => [
+        0 => 'yii'
+        1 => 'location-operator/start'
+    ]
+    'argc' => 2
+]
+2024-10-20 14:35:49 [-][-][-][error][RuntimeException] RuntimeException: Failed to listen on "tcp://0.0.0.0:8093": Address already in use (EADDRINUSE) in /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/TcpServer.php:188
+Stack trace:
+#0 /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/Server.php(81): React\Socket\TcpServer->__construct()
+#1 /var/www/www-root/data/www/project-spellcraft.ru/vendor/cboden/ratchet/src/Ratchet/App.php(78): React\Socket\Server->__construct()
+#2 /var/www/www-root/data/www/project-spellcraft.ru/commands/LocationOperatorController.php(17): Ratchet\App->__construct()
+#3 [internal function]: app\commands\LocationOperatorController->actionStart()
+#4 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#5 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#6 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction()
+#7 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction()
+#8 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#9 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#10 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#11 /var/www/www-root/data/www/project-spellcraft.ru/yii(20): yii\base\Application->run()
+#12 {main}
+2024-10-20 14:35:49 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'PWD' => '/var/www/www-root/data/www/project-spellcraft.ru'
+    'LOGNAME' => 'root'
+    'HOME' => '/root'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'TERM' => 'xterm'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'USER' => 'root'
+    'SHLVL' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'MAIL' => '/var/mail/root'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/root'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1729434949.0346
+    'REQUEST_TIME' => 1729434949
+    'argv' => [
+        0 => 'yii'
+        1 => 'location-operator/start'
+    ]
+    'argc' => 2
+]
+2024-10-20 21:42:22 [-][-][-][error][RuntimeException] RuntimeException: Failed to listen on "tcp://0.0.0.0:8093": Address already in use (EADDRINUSE) in /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/TcpServer.php:188
+Stack trace:
+#0 /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/Server.php(81): React\Socket\TcpServer->__construct()
+#1 /var/www/www-root/data/www/project-spellcraft.ru/vendor/cboden/ratchet/src/Ratchet/App.php(78): React\Socket\Server->__construct()
+#2 /var/www/www-root/data/www/project-spellcraft.ru/commands/LocationOperatorController.php(17): Ratchet\App->__construct()
+#3 [internal function]: app\commands\LocationOperatorController->actionStart()
+#4 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#5 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#6 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction()
+#7 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction()
+#8 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#9 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#10 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#11 /var/www/www-root/data/www/project-spellcraft.ru/yii(20): yii\base\Application->run()
+#12 {main}
+2024-10-20 21:42:22 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'PWD' => '/var/www/www-root/data/www/project-spellcraft.ru'
+    'LOGNAME' => 'root'
+    'HOME' => '/root'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'TERM' => 'xterm'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'USER' => 'root'
+    'SHLVL' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'MAIL' => '/var/mail/root'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/root'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1729460542.4077
+    'REQUEST_TIME' => 1729460542
+    'argv' => [
+        0 => 'yii'
+        1 => 'location-operator/start'
+    ]
+    'argc' => 2
+]
+2024-10-20 22:07:26 [-][-][-][error][RuntimeException] RuntimeException: Failed to listen on "tcp://0.0.0.0:8093": Address already in use (EADDRINUSE) in /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/TcpServer.php:188
+Stack trace:
+#0 /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/Server.php(81): React\Socket\TcpServer->__construct()
+#1 /var/www/www-root/data/www/project-spellcraft.ru/vendor/cboden/ratchet/src/Ratchet/App.php(78): React\Socket\Server->__construct()
+#2 /var/www/www-root/data/www/project-spellcraft.ru/commands/LocationOperatorController.php(17): Ratchet\App->__construct()
+#3 [internal function]: app\commands\LocationOperatorController->actionStart()
+#4 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#5 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#6 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction()
+#7 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction()
+#8 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#9 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#10 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#11 /var/www/www-root/data/www/project-spellcraft.ru/yii(20): yii\base\Application->run()
+#12 {main}
+2024-10-20 22:07:26 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'PWD' => '/var/www/www-root/data/www/project-spellcraft.ru'
+    'LOGNAME' => 'root'
+    'HOME' => '/root'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'TERM' => 'xterm'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'USER' => 'root'
+    'SHLVL' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'MAIL' => '/var/mail/root'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/root'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1729462046.3788
+    'REQUEST_TIME' => 1729462046
+    'argv' => [
+        0 => 'yii'
+        1 => 'location-operator/start'
+    ]
+    'argc' => 2
+]
+2024-10-20 22:12:54 [-][-][-][error][RuntimeException] RuntimeException: Failed to listen on "tcp://0.0.0.0:8093": Address already in use (EADDRINUSE) in /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/TcpServer.php:188
+Stack trace:
+#0 /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/Server.php(81): React\Socket\TcpServer->__construct()
+#1 /var/www/www-root/data/www/project-spellcraft.ru/vendor/cboden/ratchet/src/Ratchet/App.php(78): React\Socket\Server->__construct()
+#2 /var/www/www-root/data/www/project-spellcraft.ru/commands/LocationOperatorController.php(17): Ratchet\App->__construct()
+#3 [internal function]: app\commands\LocationOperatorController->actionStart()
+#4 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#5 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#6 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction()
+#7 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction()
+#8 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#9 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#10 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#11 /var/www/www-root/data/www/project-spellcraft.ru/yii(20): yii\base\Application->run()
+#12 {main}
+2024-10-20 22:12:54 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'PWD' => '/var/www/www-root/data/www/project-spellcraft.ru'
+    'LOGNAME' => 'root'
+    'HOME' => '/root'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'TERM' => 'xterm'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'USER' => 'root'
+    'SHLVL' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'MAIL' => '/var/mail/root'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/root'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1729462374.3578
+    'REQUEST_TIME' => 1729462374
+    'argv' => [
+        0 => 'yii'
+        1 => 'location-operator/start'
+    ]
+    'argc' => 2
+]
+2024-10-20 22:35:44 [-][-][-][error][RuntimeException] RuntimeException: Failed to listen on "tcp://0.0.0.0:8093": Address already in use (EADDRINUSE) in /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/TcpServer.php:188
+Stack trace:
+#0 /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/Server.php(81): React\Socket\TcpServer->__construct()
+#1 /var/www/www-root/data/www/project-spellcraft.ru/vendor/cboden/ratchet/src/Ratchet/App.php(78): React\Socket\Server->__construct()
+#2 /var/www/www-root/data/www/project-spellcraft.ru/commands/LocationOperatorController.php(17): Ratchet\App->__construct()
+#3 [internal function]: app\commands\LocationOperatorController->actionStart()
+#4 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#5 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#6 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction()
+#7 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction()
+#8 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#9 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#10 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#11 /var/www/www-root/data/www/project-spellcraft.ru/yii(20): yii\base\Application->run()
+#12 {main}
+2024-10-20 22:35:44 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'PWD' => '/var/www/www-root/data/www/project-spellcraft.ru'
+    'LOGNAME' => 'root'
+    'HOME' => '/root'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'TERM' => 'xterm'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'USER' => 'root'
+    'SHLVL' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'MAIL' => '/var/mail/root'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/root'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1729463744.6713
+    'REQUEST_TIME' => 1729463744
+    'argv' => [
+        0 => 'yii'
+        1 => 'location-operator/start'
+    ]
+    'argc' => 2
+]
+2024-10-20 22:52:23 [-][-][-][error][RuntimeException] RuntimeException: Failed to listen on "tcp://0.0.0.0:8093": Address already in use (EADDRINUSE) in /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/TcpServer.php:188
+Stack trace:
+#0 /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/Server.php(81): React\Socket\TcpServer->__construct()
+#1 /var/www/www-root/data/www/project-spellcraft.ru/vendor/cboden/ratchet/src/Ratchet/App.php(78): React\Socket\Server->__construct()
+#2 /var/www/www-root/data/www/project-spellcraft.ru/commands/LocationOperatorController.php(17): Ratchet\App->__construct()
+#3 [internal function]: app\commands\LocationOperatorController->actionStart()
+#4 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#5 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#6 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction()
+#7 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction()
+#8 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#9 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#10 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#11 /var/www/www-root/data/www/project-spellcraft.ru/yii(20): yii\base\Application->run()
+#12 {main}
+2024-10-20 22:52:23 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'PWD' => '/var/www/www-root/data/www/project-spellcraft.ru'
+    'LOGNAME' => 'root'
+    'HOME' => '/root'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'TERM' => 'xterm'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'USER' => 'root'
+    'SHLVL' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'MAIL' => '/var/mail/root'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/root'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1729464743.4352
+    'REQUEST_TIME' => 1729464743
+    'argv' => [
+        0 => 'yii'
+        1 => 'location-operator/start'
+    ]
+    'argc' => 2
+]
+2024-10-20 23:00:00 [-][-][-][error][RuntimeException] RuntimeException: Failed to listen on "tcp://0.0.0.0:8093": Address already in use (EADDRINUSE) in /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/TcpServer.php:188
+Stack trace:
+#0 /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/Server.php(81): React\Socket\TcpServer->__construct()
+#1 /var/www/www-root/data/www/project-spellcraft.ru/vendor/cboden/ratchet/src/Ratchet/App.php(78): React\Socket\Server->__construct()
+#2 /var/www/www-root/data/www/project-spellcraft.ru/commands/LocationOperatorController.php(17): Ratchet\App->__construct()
+#3 [internal function]: app\commands\LocationOperatorController->actionStart()
+#4 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#5 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#6 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction()
+#7 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction()
+#8 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#9 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#10 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#11 /var/www/www-root/data/www/project-spellcraft.ru/yii(20): yii\base\Application->run()
+#12 {main}
+2024-10-20 23:00:00 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'PWD' => '/var/www/www-root/data/www/project-spellcraft.ru'
+    'LOGNAME' => 'root'
+    'HOME' => '/root'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'TERM' => 'xterm'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'USER' => 'root'
+    'SHLVL' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'MAIL' => '/var/mail/root'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/root'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1729465200.717
+    'REQUEST_TIME' => 1729465200
+    'argv' => [
+        0 => 'yii'
+        1 => 'location-operator/start'
+    ]
+    'argc' => 2
+]
+2024-10-20 23:02:18 [-][-][-][error][RuntimeException] RuntimeException: Failed to listen on "tcp://0.0.0.0:8093": Address already in use (EADDRINUSE) in /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/TcpServer.php:188
+Stack trace:
+#0 /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/Server.php(81): React\Socket\TcpServer->__construct()
+#1 /var/www/www-root/data/www/project-spellcraft.ru/vendor/cboden/ratchet/src/Ratchet/App.php(78): React\Socket\Server->__construct()
+#2 /var/www/www-root/data/www/project-spellcraft.ru/commands/LocationOperatorController.php(17): Ratchet\App->__construct()
+#3 [internal function]: app\commands\LocationOperatorController->actionStart()
+#4 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#5 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#6 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction()
+#7 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction()
+#8 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#9 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#10 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#11 /var/www/www-root/data/www/project-spellcraft.ru/yii(20): yii\base\Application->run()
+#12 {main}
+2024-10-20 23:02:18 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'PWD' => '/var/www/www-root/data/www/project-spellcraft.ru'
+    'LOGNAME' => 'root'
+    'HOME' => '/root'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'TERM' => 'xterm'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'USER' => 'root'
+    'SHLVL' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'MAIL' => '/var/mail/root'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/root'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1729465338.0967
+    'REQUEST_TIME' => 1729465338
+    'argv' => [
+        0 => 'yii'
+        1 => 'location-operator/start'
+    ]
+    'argc' => 2
+]
+2024-10-20 23:09:32 [-][-][-][error][RuntimeException] RuntimeException: Failed to listen on "tcp://0.0.0.0:8093": Address already in use (EADDRINUSE) in /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/TcpServer.php:188
+Stack trace:
+#0 /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/Server.php(81): React\Socket\TcpServer->__construct()
+#1 /var/www/www-root/data/www/project-spellcraft.ru/vendor/cboden/ratchet/src/Ratchet/App.php(78): React\Socket\Server->__construct()
+#2 /var/www/www-root/data/www/project-spellcraft.ru/commands/LocationOperatorController.php(17): Ratchet\App->__construct()
+#3 [internal function]: app\commands\LocationOperatorController->actionStart()
+#4 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#5 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#6 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction()
+#7 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction()
+#8 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#9 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#10 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#11 /var/www/www-root/data/www/project-spellcraft.ru/yii(20): yii\base\Application->run()
+#12 {main}
+2024-10-20 23:09:32 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'PWD' => '/var/www/www-root/data/www/project-spellcraft.ru'
+    'LOGNAME' => 'root'
+    'HOME' => '/root'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'TERM' => 'xterm'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'USER' => 'root'
+    'SHLVL' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'MAIL' => '/var/mail/root'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/root'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1729465772.7948
+    'REQUEST_TIME' => 1729465772
+    'argv' => [
+        0 => 'yii'
+        1 => 'location-operator/start'
+    ]
+    'argc' => 2
+]
+2024-10-20 23:09:52 [-][-][-][error][RuntimeException] RuntimeException: Failed to listen on "tcp://0.0.0.0:8093": Address already in use (EADDRINUSE) in /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/TcpServer.php:188
+Stack trace:
+#0 /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/Server.php(81): React\Socket\TcpServer->__construct()
+#1 /var/www/www-root/data/www/project-spellcraft.ru/vendor/cboden/ratchet/src/Ratchet/App.php(78): React\Socket\Server->__construct()
+#2 /var/www/www-root/data/www/project-spellcraft.ru/commands/LocationOperatorController.php(17): Ratchet\App->__construct()
+#3 [internal function]: app\commands\LocationOperatorController->actionStart()
+#4 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#5 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#6 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction()
+#7 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction()
+#8 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#9 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#10 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#11 /var/www/www-root/data/www/project-spellcraft.ru/yii(20): yii\base\Application->run()
+#12 {main}
+2024-10-20 23:09:52 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'PWD' => '/var/www/www-root/data/www/project-spellcraft.ru'
+    'LOGNAME' => 'root'
+    'HOME' => '/root'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'TERM' => 'xterm'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'USER' => 'root'
+    'SHLVL' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'MAIL' => '/var/mail/root'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/root'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1729465792.8544
+    'REQUEST_TIME' => 1729465792
+    'argv' => [
+        0 => 'yii'
+        1 => 'location-operator/start'
+    ]
+    'argc' => 2
+]
+2024-10-20 23:10:03 [-][-][-][error][RuntimeException] RuntimeException: Failed to listen on "tcp://0.0.0.0:8093": Address already in use (EADDRINUSE) in /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/TcpServer.php:188
+Stack trace:
+#0 /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/Server.php(81): React\Socket\TcpServer->__construct()
+#1 /var/www/www-root/data/www/project-spellcraft.ru/vendor/cboden/ratchet/src/Ratchet/App.php(78): React\Socket\Server->__construct()
+#2 /var/www/www-root/data/www/project-spellcraft.ru/commands/LocationOperatorController.php(17): Ratchet\App->__construct()
+#3 [internal function]: app\commands\LocationOperatorController->actionStart()
+#4 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#5 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#6 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction()
+#7 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction()
+#8 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#9 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#10 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#11 /var/www/www-root/data/www/project-spellcraft.ru/yii(20): yii\base\Application->run()
+#12 {main}
+2024-10-20 23:10:03 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'PWD' => '/var/www/www-root/data/www/project-spellcraft.ru'
+    'LOGNAME' => 'root'
+    'HOME' => '/root'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'TERM' => 'xterm'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'USER' => 'root'
+    'SHLVL' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'MAIL' => '/var/mail/root'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/root'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1729465803.1874
+    'REQUEST_TIME' => 1729465803
+    'argv' => [
+        0 => 'yii'
+        1 => 'location-operator/start'
+    ]
+    'argc' => 2
+]
+2024-10-20 23:14:47 [-][-][-][error][RuntimeException] RuntimeException: Failed to listen on "tcp://0.0.0.0:8093": Address already in use (EADDRINUSE) in /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/TcpServer.php:188
+Stack trace:
+#0 /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/Server.php(81): React\Socket\TcpServer->__construct()
+#1 /var/www/www-root/data/www/project-spellcraft.ru/vendor/cboden/ratchet/src/Ratchet/App.php(78): React\Socket\Server->__construct()
+#2 /var/www/www-root/data/www/project-spellcraft.ru/commands/LocationOperatorController.php(17): Ratchet\App->__construct()
+#3 [internal function]: app\commands\LocationOperatorController->actionStart()
+#4 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#5 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#6 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction()
+#7 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction()
+#8 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#9 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#10 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#11 /var/www/www-root/data/www/project-spellcraft.ru/yii(20): yii\base\Application->run()
+#12 {main}
+2024-10-20 23:14:47 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'PWD' => '/var/www/www-root/data/www/project-spellcraft.ru'
+    'LOGNAME' => 'root'
+    'HOME' => '/root'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'TERM' => 'xterm'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'USER' => 'root'
+    'SHLVL' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'MAIL' => '/var/mail/root'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/root'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1729466087.7692
+    'REQUEST_TIME' => 1729466087
+    'argv' => [
+        0 => 'yii'
+        1 => 'location-operator/start'
+    ]
+    'argc' => 2
+]
+2024-10-20 23:30:09 [-][-][-][error][RuntimeException] RuntimeException: Failed to listen on "tcp://0.0.0.0:8093": Address already in use (EADDRINUSE) in /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/TcpServer.php:188
+Stack trace:
+#0 /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/Server.php(81): React\Socket\TcpServer->__construct()
+#1 /var/www/www-root/data/www/project-spellcraft.ru/vendor/cboden/ratchet/src/Ratchet/App.php(78): React\Socket\Server->__construct()
+#2 /var/www/www-root/data/www/project-spellcraft.ru/commands/LocationOperatorController.php(17): Ratchet\App->__construct()
+#3 [internal function]: app\commands\LocationOperatorController->actionStart()
+#4 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#5 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#6 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction()
+#7 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction()
+#8 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#9 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#10 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#11 /var/www/www-root/data/www/project-spellcraft.ru/yii(20): yii\base\Application->run()
+#12 {main}
+2024-10-20 23:30:09 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'PWD' => '/var/www/www-root/data/www/project-spellcraft.ru'
+    'LOGNAME' => 'root'
+    'HOME' => '/root'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'TERM' => 'xterm'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'USER' => 'root'
+    'SHLVL' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'MAIL' => '/var/mail/root'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/root'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1729467009.1208
+    'REQUEST_TIME' => 1729467009
+    'argv' => [
+        0 => 'yii'
+        1 => 'location-operator/start'
+    ]
+    'argc' => 2
+]
+2024-10-20 23:33:54 [-][-][-][error][RuntimeException] RuntimeException: Failed to listen on "tcp://0.0.0.0:8093": Address already in use (EADDRINUSE) in /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/TcpServer.php:188
+Stack trace:
+#0 /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/Server.php(81): React\Socket\TcpServer->__construct()
+#1 /var/www/www-root/data/www/project-spellcraft.ru/vendor/cboden/ratchet/src/Ratchet/App.php(78): React\Socket\Server->__construct()
+#2 /var/www/www-root/data/www/project-spellcraft.ru/commands/LocationOperatorController.php(17): Ratchet\App->__construct()
+#3 [internal function]: app\commands\LocationOperatorController->actionStart()
+#4 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#5 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#6 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction()
+#7 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction()
+#8 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#9 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#10 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#11 /var/www/www-root/data/www/project-spellcraft.ru/yii(20): yii\base\Application->run()
+#12 {main}
+2024-10-20 23:33:54 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'PWD' => '/var/www/www-root/data/www/project-spellcraft.ru'
+    'LOGNAME' => 'root'
+    'HOME' => '/root'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'TERM' => 'xterm'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'USER' => 'root'
+    'SHLVL' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'MAIL' => '/var/mail/root'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/root'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1729467234.694
+    'REQUEST_TIME' => 1729467234
+    'argv' => [
+        0 => 'yii'
+        1 => 'location-operator/start'
+    ]
+    'argc' => 2
+]
+2024-10-20 23:41:58 [-][-][-][error][RuntimeException] RuntimeException: Failed to listen on "tcp://0.0.0.0:8093": Address already in use (EADDRINUSE) in /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/TcpServer.php:188
+Stack trace:
+#0 /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/Server.php(81): React\Socket\TcpServer->__construct()
+#1 /var/www/www-root/data/www/project-spellcraft.ru/vendor/cboden/ratchet/src/Ratchet/App.php(78): React\Socket\Server->__construct()
+#2 /var/www/www-root/data/www/project-spellcraft.ru/commands/LocationOperatorController.php(17): Ratchet\App->__construct()
+#3 [internal function]: app\commands\LocationOperatorController->actionStart()
+#4 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#5 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#6 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction()
+#7 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction()
+#8 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#9 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#10 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#11 /var/www/www-root/data/www/project-spellcraft.ru/yii(20): yii\base\Application->run()
+#12 {main}
+2024-10-20 23:41:58 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'PWD' => '/var/www/www-root/data/www/project-spellcraft.ru'
+    'LOGNAME' => 'root'
+    'HOME' => '/root'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'TERM' => 'xterm'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'USER' => 'root'
+    'SHLVL' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'MAIL' => '/var/mail/root'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/root'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1729467718.8599
+    'REQUEST_TIME' => 1729467718
+    'argv' => [
+        0 => 'yii'
+        1 => 'location-operator/start'
+    ]
+    'argc' => 2
+]
+2024-10-21 09:30:26 [-][-][-][error][RuntimeException] RuntimeException: Failed to listen on "tcp://0.0.0.0:8093": Address already in use (EADDRINUSE) in /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/TcpServer.php:188
+Stack trace:
+#0 /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/Server.php(81): React\Socket\TcpServer->__construct()
+#1 /var/www/www-root/data/www/project-spellcraft.ru/vendor/cboden/ratchet/src/Ratchet/App.php(78): React\Socket\Server->__construct()
+#2 /var/www/www-root/data/www/project-spellcraft.ru/commands/LocationOperatorController.php(17): Ratchet\App->__construct()
+#3 [internal function]: app\commands\LocationOperatorController->actionStart()
+#4 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#5 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#6 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction()
+#7 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction()
+#8 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#9 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#10 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#11 /var/www/www-root/data/www/project-spellcraft.ru/yii(20): yii\base\Application->run()
+#12 {main}
+2024-10-21 09:30:26 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'PWD' => '/var/www/www-root/data/www/project-spellcraft.ru'
+    'LOGNAME' => 'root'
+    'HOME' => '/root'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'TERM' => 'xterm'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'USER' => 'root'
+    'SHLVL' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'MAIL' => '/var/mail/root'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/root'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1729503026.2154
+    'REQUEST_TIME' => 1729503026
+    'argv' => [
+        0 => 'yii'
+        1 => 'location-operator/start'
+    ]
+    'argc' => 2
+]
+2024-10-21 14:16:40 [-][-][-][error][Error] Error: Attempt to assign property "location_id" on null in /var/www/www-root/data/www/project-spellcraft.ru/components/LocationOperator.php:84
+Stack trace:
+#0 /var/www/www-root/data/www/project-spellcraft.ru/components/LocationOperator.php(52): app\components\LocationOperator->joinLocation()
+#1 /var/www/www-root/data/www/project-spellcraft.ru/vendor/cboden/ratchet/src/Ratchet/WebSocket/WsServer.php(75): app\components\LocationOperator->onMessage()
+#2 /var/www/www-root/data/www/project-spellcraft.ru/vendor/cboden/ratchet/src/Ratchet/WebSocket/WsServer.php(131): Ratchet\WebSocket\WsServer->Ratchet\WebSocket\{closure}()
+#3 /var/www/www-root/data/www/project-spellcraft.ru/vendor/ratchet/rfc6455/src/Messaging/MessageBuffer.php(248): Ratchet\WebSocket\WsServer->Ratchet\WebSocket\{closure}()
+#4 /var/www/www-root/data/www/project-spellcraft.ru/vendor/ratchet/rfc6455/src/Messaging/MessageBuffer.php(194): Ratchet\RFC6455\Messaging\MessageBuffer->processData()
+#5 /var/www/www-root/data/www/project-spellcraft.ru/vendor/cboden/ratchet/src/Ratchet/WebSocket/WsServer.php(153): Ratchet\RFC6455\Messaging\MessageBuffer->onData()
+#6 /var/www/www-root/data/www/project-spellcraft.ru/vendor/cboden/ratchet/src/Ratchet/Http/Router.php(76): Ratchet\WebSocket\WsServer->onMessage()
+#7 /var/www/www-root/data/www/project-spellcraft.ru/vendor/cboden/ratchet/src/Ratchet/Http/HttpServer.php(54): Ratchet\Http\Router->onMessage()
+#8 /var/www/www-root/data/www/project-spellcraft.ru/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(112): Ratchet\Http\HttpServer->onMessage()
+#9 /var/www/www-root/data/www/project-spellcraft.ru/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(95): Ratchet\Server\IoServer->handleData()
+#10 /var/www/www-root/data/www/project-spellcraft.ru/vendor/evenement/evenement/src/EventEmitterTrait.php(143): Ratchet\Server\IoServer->Ratchet\Server\{closure}()
+#11 /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/stream/src/Util.php(71): Evenement\EventEmitter->emit()
+#12 /var/www/www-root/data/www/project-spellcraft.ru/vendor/evenement/evenement/src/EventEmitterTrait.php(143): React\Stream\Util::React\Stream\{closure}()
+#13 /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/stream/src/DuplexResourceStream.php(209): Evenement\EventEmitter->emit()
+#14 /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/event-loop/src/StreamSelectLoop.php(246): React\Stream\DuplexResourceStream->handleData()
+#15 /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/event-loop/src/StreamSelectLoop.php(213): React\EventLoop\StreamSelectLoop->waitForStreamActivity()
+#16 /var/www/www-root/data/www/project-spellcraft.ru/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(74): React\EventLoop\StreamSelectLoop->run()
+#17 /var/www/www-root/data/www/project-spellcraft.ru/vendor/cboden/ratchet/src/Ratchet/App.php(145): Ratchet\Server\IoServer->run()
+#18 /var/www/www-root/data/www/project-spellcraft.ru/commands/LocationOperatorController.php(19): Ratchet\App->run()
+#19 [internal function]: app\commands\LocationOperatorController->actionStart()
+#20 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#21 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#22 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction()
+#23 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction()
+#24 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#25 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#26 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#27 /var/www/www-root/data/www/project-spellcraft.ru/yii(20): yii\base\Application->run()
+#28 {main}
+2024-10-21 14:03:37 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'PWD' => '/var/www/www-root/data/www/project-spellcraft.ru'
+    'LOGNAME' => 'root'
+    'HOME' => '/root'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'TERM' => 'xterm'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'USER' => 'root'
+    'SHLVL' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'MAIL' => '/var/mail/root'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/root'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1729519417.2357
+    'REQUEST_TIME' => 1729519417
+    'argv' => [
+        0 => 'yii'
+        1 => 'location-operator/start'
+    ]
+    'argc' => 2
+]
+2024-10-21 15:00:16 [-][-][-][error][RuntimeException] RuntimeException: Failed to listen on "tcp://0.0.0.0:8093": Address already in use (EADDRINUSE) in /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/TcpServer.php:188
+Stack trace:
+#0 /var/www/www-root/data/www/project-spellcraft.ru/vendor/react/socket/src/Server.php(81): React\Socket\TcpServer->__construct()
+#1 /var/www/www-root/data/www/project-spellcraft.ru/vendor/cboden/ratchet/src/Ratchet/App.php(78): React\Socket\Server->__construct()
+#2 /var/www/www-root/data/www/project-spellcraft.ru/commands/LocationOperatorController.php(17): Ratchet\App->__construct()
+#3 [internal function]: app\commands\LocationOperatorController->actionStart()
+#4 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#5 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#6 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction()
+#7 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction()
+#8 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#9 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#10 /var/www/www-root/data/www/project-spellcraft.ru/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#11 /var/www/www-root/data/www/project-spellcraft.ru/yii(20): yii\base\Application->run()
+#12 {main}
+2024-10-21 15:00:16 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'PWD' => '/var/www/www-root/data/www/project-spellcraft.ru'
+    'LOGNAME' => 'root'
+    'HOME' => '/root'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'TERM' => 'xterm'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'USER' => 'root'
+    'SHLVL' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'MAIL' => '/var/mail/root'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/root'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1729522816.9672
+    'REQUEST_TIME' => 1729522816
+    'argv' => [
+        0 => 'yii'
+        1 => 'location-operator/start'
+    ]
+    'argc' => 2
+]
